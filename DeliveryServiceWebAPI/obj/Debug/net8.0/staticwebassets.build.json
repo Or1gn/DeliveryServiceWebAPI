@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SeOaRZUng8Sibf1N5Ip1h10PlE6UMjhvkNqJeFhpfbA=",
+  "Source": "DeliveryServiceWebAPI",
+  "BasePath": "_content/DeliveryServiceWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
