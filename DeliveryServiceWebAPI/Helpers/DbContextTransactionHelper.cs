@@ -1,8 +1,9 @@
-﻿using DeliveryServiceWebAPI.DatabaseHandler;
-using DeliveryServiceWebAPI.Services.Interfaces;
+﻿using DeliveryServiceWebAPI.Core.Database;
+using DeliveryServiceWebAPI.Core.Services.Interfaces;
 using System.Diagnostics;
 
-namespace DeliveryServiceWebAPI.Helpers {
+namespace DeliveryServiceWebAPI.Helpers
+{
     public class DbContextTransactionHelper {
         private readonly DeliveryServiceDbContext context;
         private readonly ILogService logService;

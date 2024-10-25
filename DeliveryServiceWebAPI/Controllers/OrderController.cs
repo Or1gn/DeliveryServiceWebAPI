@@ -1,10 +1,11 @@
-﻿using DeliveryServiceWebAPI.DTO;
-using DeliveryServiceWebAPI.Entities;
-using DeliveryServiceWebAPI.Entities.Request;
-using DeliveryServiceWebAPI.Services.Interfaces;
+﻿using DeliveryServiceWebAPI.Core.Data.DTO;
+using DeliveryServiceWebAPI.Core.Data.Entities.Request;
+using DeliveryServiceWebAPI.Core.Services.Interfaces;
+using DeliveryServiceWebAPI.Core.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DeliveryServiceWebAPI.Controllers {
+namespace DeliveryServiceWebAPI.Controllers
+{
     [ApiController]
     [Route("[controller]")]
     public class OrderController : ControllerBase {
@@ -25,7 +26,7 @@ namespace DeliveryServiceWebAPI.Controllers {
             var request = filteredOrderService.GetFilterOrderRequestFromConfiguration();
 
             if (request == null) 
-                return Ok("Не удалось получить информацию из файла конфигурации! \nДля большей информации см. таблицу logs");
+                return Ok("Не удалось получить информацию из файла конфигурации! Для большей информации см. таблицу logs");
 
             return FilterOrders(request);
         }

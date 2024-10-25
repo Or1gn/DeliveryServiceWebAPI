@@ -1,7 +1,8 @@
-﻿using DeliveryServiceWebAPI.DTO;
-using DeliveryServiceWebAPI.Entities;
+﻿using DeliveryServiceWebAPI.Core.Data.DTO;
+using DeliveryServiceWebAPI.Core.Data.Entities;
 
-namespace DeliveryServiceWebAPI.Helpers {
+namespace DeliveryServiceWebAPI.Helpers
+{
     public static class DtoConverter {
         public static Orders AsOrder(this OrderDto orderDto) {
             return new Orders {

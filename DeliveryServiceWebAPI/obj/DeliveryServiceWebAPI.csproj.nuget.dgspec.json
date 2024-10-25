@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {}
+    "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {
+    "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj",
+        "projectUniqueName": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj",
         "projectName": "DeliveryServiceWebAPI",
-        "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj",
+        "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj",
         "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-        "outputPath": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\obj\\",
+        "outputPath": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",

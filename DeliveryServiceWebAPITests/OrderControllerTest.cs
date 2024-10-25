@@ -1,12 +1,13 @@
 using DeliveryServiceWebAPI.Controllers;
-using DeliveryServiceWebAPI.DTO;
-using DeliveryServiceWebAPI.Entities.Request;
-using DeliveryServiceWebAPI.Services.Interfaces;
+using DeliveryServiceWebAPI.Core.Data.Entities.Request;
+using DeliveryServiceWebAPI.Core.Services.Interfaces;
+using DeliveryServiceWebAPI.Core.Data.DTO;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using NUnit.Framework.Legacy;
 
-namespace DeliveryServiceWebAPITests {
+namespace DeliveryServiceWebAPITests
+{
     public class Tests {
         [TestFixture]
         public class OrderControllerTests {
@@ -25,21 +26,21 @@ namespace DeliveryServiceWebAPITests {
 
             [Test]
             public void GetFilteredOrders_ReturnsBadRequest_WhenRequestIsInvalid() {
-                var request = new FilterOrderRequest { cityDistrict = "Москва", firstDeliveryDateTime = DateTime.UtcNow };
+                var request = new FilterOrderRequest { cityDistrict = "Р’РѕСЂРѕРЅРµР¶", firstDeliveryDateTime = DateTime.UtcNow };
                 _validateServiceMock.Setup(s => s.ValidateRequest(request)).Returns(false);
 
                 var result = _controller.GetFilteredOrders(request);
 
                 var okResult = result as OkObjectResult;
                 ClassicAssert.IsNotNull(okResult);
-                ClassicAssert.AreEqual("Данные не прошли проверку!", okResult.Value);
+                ClassicAssert.AreEqual("Р”Р°РЅРЅС‹Рµ РЅРµ РїСЂРѕС€Р»Рё РїСЂРѕРІРµСЂРєСѓ!", okResult.Value);
             }
 
             [Test]
             public void AddOrder_ReturnsOk_WhenOrderIsCreated() {
                 var orderDto = new OrderDto { 
                     Weight = 20.5M,
-                    Region = "Москва"
+                    Region = "Р’РѕСЂРѕРЅРµР¶"
                 };
 
                 var result = _controller.AddOrder(orderDto);
@@ -57,7 +58,7 @@ namespace DeliveryServiceWebAPITests {
 
                 var okResult = result as OkObjectResult;
                 ClassicAssert.IsNotNull(okResult);
-                ClassicAssert.AreEqual("Не удалось получить информацию из файла конфигурации! \nДля большей информации см. таблицу logs", okResult.Value);
+                ClassicAssert.AreEqual("РќРµ СѓРґР°Р»РѕСЃСЊ РїРѕР»СѓС‡РёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ РёР· С„Р°Р№Р»Р° РєРѕРЅС„РёРіСѓСЂР°С†РёРё! Р”Р»СЏ Р±РѕР»СЊС€РµР№ РёРЅС„РѕСЂРјР°С†РёРё СЃРј. С‚Р°Р±Р»РёС†Сѓ logs", okResult.Value);
             }
         }
     }

@@ -1,4 +1,4 @@
-using DeliveryServiceWebAPI.DatabaseHandler;
+using DeliveryServiceWebAPI.Core.Database;
 using DeliveryServiceWebAPI.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 

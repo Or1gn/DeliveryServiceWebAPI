@@ -9956,11 +9956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\DeliveryServiceWebAPITests.csproj",
+      "projectUniqueName": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\DeliveryServiceWebAPITests.csproj",
       "projectName": "DeliveryServiceWebAPITests",
-      "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\DeliveryServiceWebAPITests.csproj",
+      "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\DeliveryServiceWebAPITests.csproj",
       "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-      "outputPath": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\obj\\",
+      "outputPath": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPITests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9978,8 +9978,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {
-              "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI (2)\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj"
+            "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj": {
+              "projectPath": "D:\\DeliveryService\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI\\DeliveryServiceWebAPI.csproj"
             }
           }
         }
